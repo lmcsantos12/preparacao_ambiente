@@ -15,3 +15,11 @@ Esse repositório reúne informações para a preparação do ambiente de trabal
 - Ambiente Virtual (conda)
 
 - Editor de código (VSCode)
+
+
+## Markdown
+
+```
+ls minha pasta 
+
+```
