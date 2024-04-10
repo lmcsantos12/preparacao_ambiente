@@ -20,6 +20,6 @@ Esse repositório reúne informações para a preparação do ambiente de trabal
 ## Markdown
 
 ```
-ls minha pasta 
+ls minha pasta
 
 ```
