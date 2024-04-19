@@ -18,7 +18,6 @@ def acessar_pagina_dinamica(link):
     # abrir o link no navegador simulado
     navegador.get(link)
 
-<<<<<<< HEAD
     sleep(3)
 
     caixa_aceiteCookies = navegador.find_element(By.XPATH, "//div[@id=aceiteCookies]").find_element(By.XPATH, "aceiteCookies.btn.btn-toast")
@@ -29,17 +28,6 @@ def acessar_pagina_dinamica(link):
     #print(caixa_diarios)
     sleep(3)
     caixa_diarios[3].find_element(By.CSS_SELECTOR, ".btn-purple").click()
-=======
-    #clicar na caixa content
-    #find_element e find_elements
-    #btn btn-toast
-    sleep(10)
-    botao_cookie = WebDriverWait(navegador,10).until(EC.visibility_of_element_located((By.ID,"aceiteCookies")))
-    botao_cookie.click()
-    sleep(10)
-    caixa_diarios = navegador.find_element(By.CSS_SELECTOR, "div.content").find_elements(By.TAG_NAME, "card border-0")
-    print(len(caixa_diarios))
->>>>>>> cd2ec59 (tentativa de avanço na coleta de batatais)
     
     #clicar em download pdf
     #find_element e find_elements
